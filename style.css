@@ -1,0 +1,216 @@
+:root {
+    --lightgrey: #ececec;
+    --darkpink: #c67f7f;
+    --darkred: rgb(139, 0, 0);
+    --font-primary: 'Nova Square', sans-serif;
+    --font-secondary: 'Rajdhani', sans-serif;
+}
+
+.font-primary{
+    font-family: var(--font-primary);
+}
+
+.font-secondary{
+    font-family: var(--font-secondary);
+}
+
+*{
+    font-family: var(--font-secondary);
+}
+
+body {
+    margin: 0;
+}
+
+.vh-75 {
+    height: 75vh;
+}
+
+.vh-50 {
+    height: 50vh;
+}
+
+.vh-25 {
+    height: 25vh;
+}
+
+.lightgrey {
+    color: var(--lightgrey);
+}
+
+.darkpink {
+    color: var(--darkpink);
+}
+
+.darkred {
+    color: var(--darkred);
+}
+
+.darkgrey {
+    color: rgb(122, 122, 122);
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.bg-darkred {
+    background-color: var(--darkred);
+}
+
+* {
+    background-color: var(--lightgrey);
+}
+
+#img-logo{
+    height: 40px;
+}
+
+#btn-custom {
+    min-height: 10px;
+}
+
+header {
+    margin-top: 96px;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(236, 236, 236, 1), rgba(198, 127, 127, 0.1)), url(./media/switzerland-862870_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    background: none;
+}
+
+#img-header {
+    justify-self: flex-start;
+    align-self: flex-end;
+    position: absolute;
+    background-color: transparent;
+}
+
+#p-quote {
+    color: rgb(122, 122, 122);
+    font-weight: 600;
+    font-style: oblique;
+    text-align: center;
+    position: relative;
+}
+
+#p-quote::before {
+    position: absolute;
+    content: ' " ';
+    color: darkred;
+    font-size: 60px;
+    margin: -55px 0 0 -12px;
+    rotate: 185deg;
+}
+
+#p-quote::after {
+    position: absolute;
+    content: ' " ';
+    color: darkred;
+    font-size: 60px;
+    margin: -10px 0 0 -8px;
+    rotate: 5deg;
+}
+
+.p-icon {
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.line {
+    border-top: 2px solid darkred;
+}
+
+.line::after {
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    margin-top: -7px;
+    margin-left: -3px;
+    border: 2px solid darkred;
+    background-color: var(--lightgrey);
+    border-radius: 50%;
+}
+
+.p-separated {
+    font-size: smaller;
+}
+
+#btn-bg-img {
+    border: none;
+    background-color: darkred;
+    color: white;
+    padding: 5px 35px;
+    position: absolute;
+}
+
+#img-btn-bg {
+    width: 100%;
+}
+
+.p-timeline {
+    font-size: smaller;
+    font-weight: 600;
+}
+
+.border-left-timeline {
+    border-left: 2px solid darkred;
+}
+
+.circle-timeline::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -21px;
+    border: 2px solid darkred;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#img-bg-timeline {
+background: url(./media/single.png), rgba(255, 255, 255, 1);
+background-repeat: no-repeat;
+background-size: 50%;
+background-position: bottom right;
+}
+
+.img-card-team {
+    width: 100px;
+    height: 100px;
+    border: 2px solid darkred;
+}
+
+.p-card {
+    font-size:x-small;
+    font-weight: 600;
+}
+
+.img-benefit {
+    height: 150px;
+    width: 150px;
+    border: 2px solid darkred;
+    padding: 6px;
+}
+
+.p-benefit {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.p-generic-footer{
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.ul-footer{
+    font-size: 10px;
+}
