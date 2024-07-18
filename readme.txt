@@ -1,0 +1,1 @@
+Trattasi di esercizio front-end che consiste nel replicare quanto più fedelmente possibile l'immagine "sample_track.png" presente nei media.
